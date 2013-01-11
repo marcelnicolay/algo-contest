@@ -9,8 +9,5 @@ Ganha quem passar os tests primeiro
 python test.py
 ```
 
-## Condição de existência de um triângulo:
-se a > b + c não formam triângulo algum, se a é o maior
-
-## usar o teorema de Heron para cáculoa da área:
+## usar o teorema de Heron para cáculo da área:
 http://pt.wikipedia.org/wiki/Teorema_de_Heron
