@@ -2,16 +2,12 @@
 
 Elaborar um algoritmo que lê 3 valores a,b,c e verifica se eles formam ou não um triângulo. Supor que os valores lidos são inteiros e positivos. Caso os valores formem um triângulo, calcular e escrever a área deste triângulo. Se não formam triângulo escrever os valores lidos.
 
-para testar
+
+Ganha quem passar os tests primeiro
 
 ```bash
 python test.py
 ```
-
-para roda
-
-```bash
-python algoritmo.py
 ```
 
 ## Condição de existência de um triângulo:
