@@ -6,9 +6,9 @@ import triangle
 class TriangleTestCase(unittest.TestCase):
 
     def test_should_be_an_triangule(self):
-        self.assertIsFalse(triangle.is_triangle((10, 20, 15)))
-        self.assertIsFalse(triangle.is_triangle((20, 10, 12)))
-        self.assertIsFalse(triangle.is_triangle((2, 4, 6)))
+        self.assertIsTrue(not triangle.is_triangle((10, 20, 15)))
+        self.assertIsTrue(not triangle.is_triangle((20, 10, 12)))
+        self.assertIsTrue(not triangle.is_triangle((2, 4, 6)))
 
     def test_should_not_be_an_triangule(self):
         self.assertIsTrue(triangle.is_triangle((10, 20, 2)))
@@ -20,3 +20,6 @@ class TriangleTestCase(unittest.TestCase):
         area = triangle.calculate_area(triangle_test)
 
         self.assertEquals(area, 4)
+
+if __name__ == '__main__':
+    unittest.main()
