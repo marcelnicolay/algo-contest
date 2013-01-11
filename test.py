@@ -5,12 +5,12 @@ import algoritmo
 
 class TriangleTestCase(unittest.TestCase):
 
-    def test_should_be_an_triangule(self):
+    def test_should_be_a_triangule(self):
         self.assertTrue(algoritmo.is_triangle((10, 20, 15)))
         self.assertTrue(algoritmo.is_triangle((20, 10, 12)))
         self.assertTrue(algoritmo.is_triangle((2, 4, 6)))
 
-    def test_should_not_be_an_triangule(self):
+    def test_should_not_be_a_triangule(self):
         self.assertFalse(algoritmo.is_triangle((10, 20, 2)))
         self.assertFalse(algoritmo.is_triangle((20, 10, 2)))
         self.assertFalse(algoritmo.is_triangle((2, 4, 8)))
