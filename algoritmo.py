@@ -1,15 +1,12 @@
 # coding: utf-8
+import math
 
 
 def is_triangle(triangle):
-    # TODO
     pass
-
 
 def calculate_area(triangle):
-    # TODO
     pass
-
 
 if __name__ == '__main__':
     triangle_data = raw_input('Input triangle "a, b, c": ')
