@@ -8,7 +8,6 @@ Ganha quem passar os tests primeiro
 ```bash
 python test.py
 ```
-```
 
 ## Condição de existência de um triângulo:
 se a > b + c não formam triângulo algum, se a é o maior
